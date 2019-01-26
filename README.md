@@ -1,10 +1,9 @@
-# :octocat: :open_file_folder: Spring Boot :heavy_plus_sign: Vue.js :x: Starter 
+#  :octocat: :open_file_folder: Spring Boot :heavy_plus_sign: Vue.js :x: Starter 
 
 ![alt text](frontend-vue/src/assets/logo.png)
 
 
-### Demo
-
+### :telescope: Demo
 
 ### Tech :
 
