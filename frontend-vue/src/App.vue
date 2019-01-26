@@ -9,6 +9,12 @@
   Spring Boot <font-awesome-icon icon="plus" /> Vue.js <font-awesome-icon icon="hand-point-right" /> <a class="titulli1" href="https://github.com/tonikolaba/spring-vuejsxstarter.git"> Starter </a></h3>
             <br/>
         </div>
+          <span class="btn-group btn-group-justified">
+             <gh-btns-watch slug="tonikolaba/spring-vuejsxstarter" show-count></gh-btns-watch>
+             <gh-btns-star slug="tonikolaba/spring-vuejsxstarter" show-count></gh-btns-star>
+             <gh-btns-fork slug="tonikolaba/spring-vuejsxstarter" show-count></gh-btns-fork>
+             <gh-btns-follow user="tonikolaba" show-count></gh-btns-follow>
+          </span>
         <hr class="hr"/>
         <nav class="btn btn-group">
             <router-link class="btn btn-primary" to="/"><font-awesome-icon icon="users" />
@@ -22,17 +28,8 @@ Customers</router-link>
         <br/>
         <router-view/>
         <hr class="hr"/>
-          <div>
-               <span class="btn-group btn-group-justified">
-            		<gh-btns-watch slug="tonikolaba/spring-vuejsxstarter" show-count></gh-btns-watch>
-            		<gh-btns-star slug="tonikolaba/spring-vuejsxstarter" show-count></gh-btns-star>
-            		<gh-btns-fork slug="tonikolaba/spring-vuejsxstarter" show-count></gh-btns-fork>
-            		<gh-btns-follow user="tonikolaba" show-count></gh-btns-follow>
-              </span>
-
              <font-awesome-icon icon="code" /> with <font-awesome-icon icon="heart" />
 by: <a href="https://github.com/tonikolaba">@tonikolaba</a>
-          </div>
         <hr class="hr"/>
     </div>
 </template>

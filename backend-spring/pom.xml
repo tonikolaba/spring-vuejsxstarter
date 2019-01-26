@@ -8,8 +8,18 @@
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
-
     <artifactId>backend-spring</artifactId>
+    <packaging>jar</packaging>
+
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+        <java.version>1.8</java.version>
+
+        <!-- backend dependencies -->
+        <postgresql.version>42.2.5</postgresql.version>
+    </properties>
 
     <dependencies>
         <dependency>
@@ -29,6 +39,20 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
             <scope>test</scope>
+        </dependency>
+
+        <!-- Switch back from Spring Boot 2.x standard HikariCP to Tomcat JDBC,
+configured later in Heroku (see https://stackoverflow.com/a/49970142/4964553) -->
+        <dependency>
+            <groupId>org.apache.tomcat</groupId>
+            <artifactId>tomcat-jdbc</artifactId>
+        </dependency>
+
+        <!-- PostgreSQL used in Staging and Production environment, e.g. on Heroku -->
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>${postgresql.version}</version>
         </dependency>
     </dependencies>
 

@@ -1,11 +1,14 @@
-#  :octocat: :open_file_folder: Spring Boot :heavy_plus_sign: Vue.js :x: Starter 
+#  Spring Boot :heavy_plus_sign: Vue.js :x: Starter 
 
 ![alt text](frontend-vue/src/assets/logo.png)
 
-
 ### :telescope: Demo
+![alt text](screenshot/1.png)
+![alt text](screenshot/2.png)
+![alt text](screenshot/3.png)
+![alt text](screenshot/4.png)
 
-### Tech :
+### :octocat: :open_file_folder: Tech :
 
 - Spring Boot
 - Vue.js
@@ -39,10 +42,16 @@ Project is currently extended with the following plugins. Instructions on how to
 | backend-spring | [backend-spring/README.md][PlGh] |
 | frontend-vue | [frontend-vue/README.md][PlGd] |
 
+
+   [PlDb]: <https://github.com/tonikolaba/spring-vuejsxstarter/README.md>
+   [PlGh]: <https://github.com/tonikolaba/spring-vuejsxstarter/backend-spring/README.md>
+   [PlGd]: <https://github.com/tonikolaba/spring-vuejsxstarter/frontend-vue/README.md>
+
+
 ### :computer: Installation
 
 
-Fork the project [spring-vuejsxstarter](spring-vuejsxstarter) 
+:heavy_dollar_sign: git clone https://github.com/tonikolaba/spring-vuejsxstarter.git 
 
 ```sh
 # open folder frontend-vue in CMD and install dependencies:
@@ -58,11 +67,8 @@ mvn --projects backend spring-boot:run
 ```
 
 
+### Developer
 
-[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
+* **Toni Kolaba** - *Initial work* - [tonikolaba](https://github.com/tonikolaba)
 
-[![Build Status](https://travis-ci.org/joemccann/dillinger.svg?branch=master)](https://travis-ci.org/joemccann/dillinger)
-
-
-### Development
-
+![Alt text](https://github.com/tonikolaba/download/blob/master/info/artofsoullogoNewVOG.png)
