@@ -1,19 +1,19 @@
 <template>
   <div class="searchform">
-    <h4> <i class="fa fa-user" aria-hidden="true"></i> Find by Age</h4>
+    <h4> <font-awesome-icon icon="user" /> Find by Age</h4>
     <div class="form-group">
       <input type="number" class="form-control" id="age" required v-model="age" name="age">
     </div>
 
     <div class="btn-group">
-      <button v-on:click="searchCustomers" class="btn btn-success"> <i class="fa fa-floppy-o" aria-hidden="true"></i>
+      <button v-on:click="searchCustomers" class="btn btn-success"> <font-awesome-icon icon="search" />
  Search</button>
     </div>
 
     <ul class="search-result">
-      <li v-for="(customer, index) in customers" :key="index">
-        <h6>{{customer.name}} ({{customer.age}})</h6>
-      </li>
+      <ol v-for="(customer, index) in customers" :key="index">
+        <h6><i class="fa fa-user" aria-hidden="true"></i> {{customer.name}} ({{customer.age}})</h6>
+      </ol>
     </ul>
   </div>
 </template>
@@ -48,8 +48,6 @@ export default {
 </script>
 
 <style>
-
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 
 .searchform {
   max-width: 300px;

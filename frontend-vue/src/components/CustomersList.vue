@@ -9,7 +9,7 @@
                             name: 'customer-details',
                             params: { customer: customer, id: customer.id }
                         }">
-                        <i class="fa fa-user" aria-hidden="true"></i>
+                        <font-awesome-icon icon="user" />
                             {{customer.name}}
                     </router-link>
                 </ol>
@@ -58,8 +58,6 @@ export default {
 </script>
 
 <style>
-
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
 
 .list {
   text-align: left;

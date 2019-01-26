@@ -2,26 +2,26 @@
   <div v-if="this.customer">
     <h4>Customer</h4>
     <div>
-      <label> <i class="fa fa-user-o" aria-hidden="true"></i> Name:</label> {{this.customer.name}}
+      <label> <font-awesome-icon icon="user" /> Name:</label> {{this.customer.name}}
     </div>
     <div>
-      <label> <i class="fa fa-arrow-down" aria-hidden="true"></i> Age: </label> {{this.customer.age}}
+      <label> <font-awesome-icon icon="ellipsis-v" /> Age: </label> {{this.customer.age}}
     </div>
     <div>
-      <label> <i class="fa fa-star-half-o" aria-hidden="true"></i>
+      <label> <font-awesome-icon icon="times" />
  Active: </label> {{this.customer.active}}
     </div>
 
     <button v-if="this.customer.active"
       v-on:click="updateActive(false)"
-      class="button is-small btn-primary"> <i class="fa fa-user-times" aria-hidden="true"></i>
+      class="button is-small btn-primary"> <font-awesome-icon icon="user-minus" />
  Inactive</button>
     <button v-else
       v-on:click="updateActive(true)"
-      class="button is-small btn-primary"> <i class="fa fa-user-plus" aria-hidden="true"></i>
+      class="button is-small btn-primary"> <font-awesome-icon icon="user-plus" />
  Active</button>
 
-    <button class="button is-small btn-danger" v-on:click="deleteCustomer()"> <i class="fa fa-user-times" aria-hidden="true"></i>
+    <button class="button is-small btn-danger" v-on:click="deleteCustomer()"> <font-awesome-icon icon="trash-alt" />
  Delete</button>
   </div>
   <div v-else>
@@ -74,5 +74,5 @@ export default {
 </script>
 
 <style>
-@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css");
+
 </style>
