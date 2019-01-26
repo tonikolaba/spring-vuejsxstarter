@@ -5,20 +5,9 @@
       <change type="DELETED" beforePath="$PROJECT_DIR$/frontend-vue/src/components/HelloWorld.vue" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/frontend-vue/src/router/index.js" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/LICENSE" afterPath="$PROJECT_DIR$/LICENSE" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend-spring/backend-spring.iml" afterPath="$PROJECT_DIR$/backend-spring/backend-spring.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend-spring/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/backend-spring/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/backend-spring/target/classes/application.properties" afterPath="$PROJECT_DIR$/backend-spring/target/classes/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-vue/index.html" afterPath="$PROJECT_DIR$/frontend-vue/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-vue/package-lock.json" afterPath="$PROJECT_DIR$/frontend-vue/package-lock.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-vue/package.json" afterPath="$PROJECT_DIR$/frontend-vue/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-vue/src/App.vue" afterPath="$PROJECT_DIR$/frontend-vue/src/App.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-vue/src/components/AddCustomer.vue" afterPath="$PROJECT_DIR$/frontend-vue/src/components/AddCustomer.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-vue/src/components/Customer.vue" afterPath="$PROJECT_DIR$/frontend-vue/src/components/Customer.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-vue/src/components/CustomersList.vue" afterPath="$PROJECT_DIR$/frontend-vue/src/components/CustomersList.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-vue/src/components/SearchCustomers.vue" afterPath="$PROJECT_DIR$/frontend-vue/src/components/SearchCustomers.vue" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frontend-vue/src/main.js" afterPath="$PROJECT_DIR$/frontend-vue/src/main.js" />
     </list>
     <ignored path="spring-vuejsxstarter.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -56,8 +45,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="-2820">
-                <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <first_editor relative-caret-position="748">
+                <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -261,46 +250,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="frontend-vue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-vuejsxstarter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-vuejsxstarter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend-vue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-vuejsxstarter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="spring-vuejsxstarter" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="frontend-vue" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -1074,12 +1023,12 @@
       <option name="presentableId" value="Default" />
       <updated>1548418738408</updated>
       <workItem from="1548418746379" duration="25631000" />
-      <workItem from="1548495364949" duration="1607000" />
+      <workItem from="1548495364949" duration="3019000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27238000" />
+    <option name="totallyTimeSpent" value="28650000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -1094,7 +1043,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3289689" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4091653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24886535" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -1424,8 +1373,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-2820">
-            <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <first_editor relative-caret-position="748">
+            <caret line="34" column="7" selection-start-line="34" selection-start-column="7" selection-end-line="34" selection-end-column="7" />
             <folding />
           </first_editor>
           <second_editor />
