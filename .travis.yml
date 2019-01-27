@@ -8,9 +8,7 @@ jdk:
   #- oraclejdk7
 
 script:
-  #- sudo apt-get update && sudo apt-get install oracle-java8-installer
-  #- java -version
-script: mvn clean install jacoco:report coveralls:report
+ - mvn clean install jacoco:report coveralls:report
 
 cache:
   directories:
