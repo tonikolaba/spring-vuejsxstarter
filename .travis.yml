@@ -1,7 +1,17 @@
 language: java
+
+sudo: required
+
 jdk:
-- oraclejdk8
+  #- oraclejdk9
+  - oraclejdk8
+  #- oraclejdk7
+
+script:
+  #- sudo apt-get update && sudo apt-get install oracle-java8-installer
+  #- java -version
 script: mvn clean install jacoco:report coveralls:report
+
 cache:
   directories:
-- node_modules
+  - node_modules
