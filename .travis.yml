@@ -1,4 +1,5 @@
 language: java
+<<<<<<< HEAD
 sudo: required
 jdk:
 - oraclejdk8
@@ -10,3 +11,19 @@ cache:
 deploy:
   api_key:
     secure: PVtJayeTp4lD87z5gRpS/4+57ln0R2aNkC6d2AsTie6/W0/tqR9a48WW7JpFF1QUGw5PfW9BJmUidsfx4THi5m+r94FNXAqFCTiwDOjN/I64FpwE3wBOZUL/DNlCyz/wLex57PMP7xRPUPiKKztEhuG85rWMff0xPTZlQgSPFm0Fm6Q8ePCx6/n5U44yypT6zUa40SHqWM34HO/Eyz3yIhRiqgV1QTzEn4o/eFagehXYytets5ag1OWZbOVsG0vehlm19jVcSyU6ABSe1A7JTWqB9/0iKnPKEKnt1gvMjesHAe7KD8xG25YzBzk+GFwwyOi+qvb1eLqn1FKZgi9+XtOEgRQk3mU66/iGy23iB/22tyyDNBDl0OhgIFnPaQckQIZH16BFJoTC5TD0lxfb1PhbPfyglGzAqE9cbq5DAbXSf37njrltTQE9sh7EN+UHBJdKbF37eIXQfkC1R47E9ykRCstgMxwdEllCB+Svs4zQLvj20RPQ6SiHJ1V0G49ApRSIuqhNhS8SBBkyaKTQcZO3OTA1gzd55nLiVClFYnRsbgtHPMjFLfSeUbvClQZWLZz9JM35bSHYEW9/KOGWgit7WnJuBMVb9A2kqwrB94gbkrVWhCVkbbD0U3T+2nNLPr1bPnZnxl0BmxAbiII4H8p4aAD6zMtudYVZbx8Y6vc=
+=======
+
+sudo: required
+
+jdk:
+  #- oraclejdk9
+  - oraclejdk8
+  #- oraclejdk7
+
+script:
+ - mvn clean install jacoco:report coveralls:report
+
+cache:
+  directories:
+  - node_modules
+>>>>>>> fcbb622fef7395c8f7dffa64c916af49fde4a597
