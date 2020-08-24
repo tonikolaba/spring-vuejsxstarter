@@ -63,12 +63,12 @@ npm run dev
 # open main project in CMD and Install all dependeci in both projects:
 mvn install
 # runnig backend project and run:
-mvn --projects backend spring-boot:run
+mvn --projects backend-spring spring-boot:run
 ```
 
 
 ### Developer
 
-* **Toni Kolaba** - *Initial work* - [tonikolaba](https://github.com/tonikolaba)
+*:octocat: with :heart: by* **[tonikolaba](https://github.com/tonikolaba)** *:copyright:*
 
 ![Alt text](https://github.com/tonikolaba/download/blob/master/info/artofsoullogoNewVOG.png)
